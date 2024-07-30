@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Material - Online Bookstore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body style="background-color: beige;">
+
+<!-- Header -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="https://www.shakespeareandcompany.com/img/shakespeare-and-company-paris-header.png" height="50px" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+<!-- Book Details -->
+<section id="book-details" class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="https://covers.shakespeareandcompany.com/97802415/9780241523667.jpg" class="img-fluid" alt="Demon Copperhead">
+        </div>
+        <div class="col-md-8" >
+            <h2>Good Material</h2>
+            <div id="det">
+            <p><strong>Author:</strong>Donny Alderton </p>
+            <p><strong>Price:</strong> $15</p>
+            <p><strong>Genre:</strong> Contemporary Romance,Humourous Fiction</p>
+            <p><strong>ISBN:</strong> 978-0593801307</p>
+            <p><strong>Publisher:</strong> HarperCollins</p>
+            <p><strong>Publication Date:</strong> November 7, 2023</p>
+            <p><strong>Pages:</strong> 397</p>
+            <p><strong>Format:</strong> Hardcover, eBook, Audiobook</p>
+            <button class="btn btn-primary mb-2"class="alertButton" >Add to Cart</button>
+            <button class="btn btn-secondary mb-2" class="ab">Buy Now</button>
+        </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12">
+            <h3>Book Summary</h3>
+            <p>""Good Material" by Donny Alderton is a humorous and heartfelt exploration of love, loss, and personal reinvention. The novel centers on Tom, a stand-up comedian who is experiencing the toughest period of his life after a devastating breakup with his long-term girlfriend, Lucy. Struggling to come to terms with his heartache, Tom channels his emotions into his comedy routines, using humor as both a shield and a means of self-examination.Good Material is not just a story about a comedian; it's a touching and witty examination of human resilience, the pursuit of happiness, and the ways in which laughter can be a powerful tool for healing. Alderton's engaging narrative and sharp humor make this novel a compelling read for anyone who has ever faced the ups and downs of life with a sense of humor.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3" style="height:400px;" id="last">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-3">
+                <h5>Contact Us</h5>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Bookstore St, Reading City, RB 45678</p>
+                <p><i class="fas fa-phone-alt"></i> +1 (234) 567-890</p>
+                <p><i class="fas fa-envelope"></i> contact@onlinebookstore.com</p>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <h5>Follow Us</h5>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="mx-2"><a href="#"><i class="fab fa-facebook-f fa-2x text-white"></i></a></li>
+                    <li class="mx-2"><a href="#"><i class="fab fa-twitter fa-2x text-white"></i></a></li>
+                    <li class="mx-2"><a href="#"><i class="fab fa-instagram fa-2x text-white"></i></a></li>
+                    <li class="mx-2"><a href="#"><i class="fab fa-linkedin fa-2x text-white"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <h5>Useful Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Privacy Policy</a></li>
+                    <li><a href="#" class="text-white">Terms of Service</a></li>
+                    <li><a href="#" class="text-white">Contact Us</a></li>
+                    <li><a href="#" class="text-white">FAQs</a></li>
+                    <li><a href="#" class="text-white">Return Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-12">
+                <h5>Subscribe</h5>
+                <p>Subscribe to our newsletter for the latest updates.</p>
+                <form class="form-inline justify-content-center">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12">
+                <p>&copy; 2024 Online Bookstore. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
